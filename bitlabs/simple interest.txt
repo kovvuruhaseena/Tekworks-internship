@@ -1,0 +1,6 @@
+step1:start
+step2:display" principal amount=P,rate of the interest=R,time=T
+step3:mul=P*R*T
+step4:simple interest=mul/100
+      display "simple interest"
+step5:stop

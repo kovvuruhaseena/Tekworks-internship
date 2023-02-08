@@ -1,0 +1,9 @@
+step1:start
+step2:read x,i=1,s=0
+step3:while(i<=x)
+   {
+     s=((x^2)\i)+s;
+      i=i+1;
+   }
+step3:display"s"
+step4:stop
