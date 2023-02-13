@@ -1,0 +1,8 @@
+step1:start
+step2:read num
+step3:if(num%2==0)
+      {
+       display"num is even"
+      }
+     else display"odd"
+step4:stop

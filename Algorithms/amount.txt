@@ -1,0 +1,7 @@
+step1:start
+step2:read amount
+step3:a=amount/10
+step4:display"a"
+step5:b=amount/20
+step6:display"b"
+step7:stop

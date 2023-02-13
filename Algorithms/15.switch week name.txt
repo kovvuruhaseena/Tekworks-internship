@@ -1,0 +1,21 @@
+step1:start
+step2:read week name
+step3:switch(week name)
+	{
+	 case "sunday":display "1"
+	break;
+	 case "monday":display "2"
+	break;
+	 case "tuesday":display "3"
+	break;
+	 case "wednesday":display "4"
+	break;
+	 case "thursday":display "5"
+	break;
+	 case "friday":display "6"
+	break;
+	 case "saturday":display "7"
+	}
+step4:stop
+
+	 

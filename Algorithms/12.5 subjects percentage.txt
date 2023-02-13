@@ -1,0 +1,17 @@
+step1:start
+step2:read p,c,b,m,co
+step3:student scored marks=p+c+b+m+co
+step4:percentage=(student scored marks/total marks)*100
+step5:if(percentage>=90%)
+       display"grade A"
+      else if(percentage>=80)
+       display"grade B"
+      else if(percentage>=70)
+       display"grade C"
+      else if(percentage>=60)
+       display"grade D"
+      else if(percentage>=40)
+       display"grade E"
+      else
+       display"grade F"
+step6:stop

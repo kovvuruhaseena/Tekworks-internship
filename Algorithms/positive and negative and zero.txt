@@ -1,0 +1,12 @@
+step1:start
+step2:read num
+step3:if(num>0)
+      {
+       display"num is positive"
+      }
+      else if(num<0)
+      {
+       display"num is negative"
+       }
+      else display"num is zero"
+step4:stop

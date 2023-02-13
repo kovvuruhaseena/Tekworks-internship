@@ -1,0 +1,19 @@
+step1:start
+step2:read a,b,c
+step3:d=b**2-4ac
+step4:if(d>0)
+      {
+	 r1=b+sqrt(d)/(2*a)
+	 r2=b-sqrt(d)/(2*a)
+	 display real roots
+	}
+	else if(d==0)
+	{
+	 r1=-b/2*a
+	 r2=-b/2*a
+	 display real roots and equal
+	}
+	else
+	  display roots are imaginary
+step5:stop
+	 

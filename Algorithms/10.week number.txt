@@ -1,0 +1,22 @@
+step1:start
+step2:read week num
+step3:if(week num==1)
+       display"sunday"
+      else if(week num==2)
+       display"monday"
+      else if(week num==3)
+       display"tuesday"
+      else if(week num==4)
+        display"wednesday"
+      else if(week num==5)
+        display"thursday"
+      else if(week num==6)
+        display"friday"
+      else if(week num==7)
+        display"saturday"
+      else
+        display"invalid"
+step4:stop
+    
+      
+      

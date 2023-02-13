@@ -1,0 +1,16 @@
+step1:start
+step2:Read amount,n
+step3:if(amount%10==0)
+		n=amount/10
+		display n
+	elseif(amount%100==0)
+		n=amount/100
+		dispaly n
+	elseif(amount%200==0)
+		n=amount/200
+		display n
+	elseif(amount%500==0)
+		n=amount/500
+		display n
+      else display"enter atleast two digit amount"
+step4:stop

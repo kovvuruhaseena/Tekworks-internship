@@ -1,0 +1,12 @@
+step1:start
+step2:read n1,n2,n3
+step3:if(n1>n2 and n1>n3)
+      {
+       display"n1 is maximum"
+      }
+      else if(n2>n1 and n2>n3)
+        {
+         display"n2 is maximum"
+         }
+       else display"n3 is maximum"
+step4:stop

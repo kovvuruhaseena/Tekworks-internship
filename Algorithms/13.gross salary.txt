@@ -1,0 +1,26 @@
+step1:start
+step2:read basic salary
+step3:if(basic salary<=10000)
+	{
+	 hra=basic salary*20/100
+	 da=basic salary*80/100
+	 gross salary=basic salary+hra+da
+	 display gross salary
+       }
+      else if(basic salary<=20000)
+	{
+	 hra=basic salary*25/100
+	 da=basic salary*90/100
+	 gross salary=basic salary+hra+da
+	display gross salary
+	}
+     else if(basic salary>20000)
+      {
+	 hra=basic salary*30/100
+	 da=basic salary*95/100
+       gross salary=basic salary+hra+da
+    	display gross salary
+	}
+	else
+	  display"enter valid salary"
+step4:stop

@@ -1,0 +1,7 @@
+step1:start
+step2:read char
+step3:if(char>=a and char<=z)
+       display"char is alphabet"
+      else
+        display"char is not alphabet"
+step4:stop

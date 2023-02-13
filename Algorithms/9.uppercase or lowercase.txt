@@ -1,0 +1,13 @@
+step1:start
+step2:read char
+step3:if(char>=A and char<=Z)
+      {
+       display"char is uupercase alphabet"
+      }
+      else if(char>=a and char<=z)
+      {
+      display"char is lowercase alphabet"
+      }
+      else display"char is not a alphabet"
+step4:stop
+

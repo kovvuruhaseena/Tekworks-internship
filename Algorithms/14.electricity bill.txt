@@ -1,0 +1,24 @@
+step1:start
+step2:read units
+step3:if(units<=50)
+      {
+	 bill=unit*0.50
+	 display bill
+	}
+	else if(unit>50 and units<=150)
+	{
+	 bill=units*0.75
+	 display bill
+	}
+	else if(units>150 and units<=250)
+	{
+	 bill=units*1.20
+	 display bill
+	}
+	else if(units>250)
+	{
+	 bill=units*1.50
+	 bill1=bill*20/100+bill
+	 display bill1
+	}
+step4:stop
